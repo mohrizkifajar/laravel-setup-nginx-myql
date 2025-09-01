@@ -124,6 +124,7 @@ sudo certbot --nginx -d example.com
 https://github.com/glennraya/server-setup/blob/main/Commands.txt
 https://github.com/glennraya/laravel-deploy-yml/blob/main/deploy.yml
 
+```
 server {
     listen 80;
     listen [::]:80;
@@ -157,3 +158,4 @@ server {
         deny all;
     }
 }
+```
