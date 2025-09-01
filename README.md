@@ -75,7 +75,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-## Web Server Configuration
+## 3. Web Server Configuration
 
 ### Install Nginx
 ```
@@ -118,3 +118,8 @@ sudo apt install certbot python3-cerbot-nginx
 
 sudo certbot --nginx -d example.com
 ```
+
+## Links
+
+https://github.com/glennraya/server-setup/blob/main/Commands.txt
+https://github.com/glennraya/laravel-deploy-yml/blob/main/deploy.yml
